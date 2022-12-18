@@ -1,3 +1,14 @@
-.main-container {
+.root-container {
+    position: relative;
+}
+
+.home-main-container {
     display: flex;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
