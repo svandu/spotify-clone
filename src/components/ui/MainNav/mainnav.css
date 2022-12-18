@@ -1,0 +1,57 @@
+.container-btn button {
+    background-color: rgba(0, 0, 0, 0.411);
+    background: transparent;
+    border: none;
+    cursor: pointer;
+} 
+
+.main-conatiner-nav svg {
+    height: 30px;
+    color: #a29b9b;
+}
+
+.main-conatiner-nav svg:hover {
+    color: #fff;
+}
+
+
+.main-conatiner-nav {
+    height: 80px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.411);
+    padding: 1rem 1.1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.auth-btn button {
+    padding: 0 1.1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: transform 200ms ease-out;
+}
+
+.auth-btn button:hover {
+    transform: scale(1.03);
+}
+
+.auth-btn button:nth-child(1){
+    background-color: rgba(0, 0, 0, 0.411);
+    background: transparent;
+    border: none;
+    font-weight: bold;
+    color: #a29b9b;
+}
+
+.auth-btn button:nth-child(1):hover {
+    color: #fff;
+}
+
+.auth-btn button:nth-child(2){
+    padding: 0.8rem 1.8rem;
+    border: none;
+    border-radius: 500px;
+    font-weight: bold;
+    background-color: #fff;
+}
