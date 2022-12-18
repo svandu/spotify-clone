@@ -1,17 +1,20 @@
 import React from "react";
 
+//styles
+import './AuthFooter.css'
+
 function AuthFooter() {
   return (
-    <div className="container">
+    <div className="footer-container">
       <div className="footer-content">
         <p>preview of spotify</p>
         <p>
-          sign up to get unlimited songs and podcasts with occasional adds. no
+          Sign up to get unlimited songs and podcasts with occasional adds. No
           credits card needed.
         </p>
       </div>
       <button className="footer-btn">
-        <span>sign up free</span>
+        <span>Sign up free</span>
       </button>
     </div>
   );

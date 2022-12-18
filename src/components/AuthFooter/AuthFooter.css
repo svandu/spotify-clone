@@ -1,0 +1,38 @@
+.footer-container {
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,252,1) 50%, rgba(69,156,252,1) 100%);
+}
+
+.footer-content p {
+    padding: 0.1rem 0;
+}
+
+.footer-content p:nth-child(1) {
+   text-transform: uppercase;
+   font-weight: bold;
+}
+
+.footer-btn {
+    padding: 0.9rem 1.5rem;
+    border: none;
+    border-radius: 500px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 200ms ease-out;
+}
+
+.footer-btn:hover{
+    transform: scale(1.03);
+}
+
+.footer-btn span {
+    font-size: 1rem;
+    font-weight: bold;
+}
