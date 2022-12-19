@@ -7,7 +7,7 @@
 
 .main-conatiner-nav svg {
     height: 30px;
-    color: #a29b9b;
+    color: #c7c2c2;
 }
 
 .main-conatiner-nav svg:hover {
@@ -41,7 +41,7 @@
     background: transparent;
     border: none;
     font-weight: bold;
-    color: #a29b9b;
+    color: #c7c2c2;
 }
 
 .auth-btn button:nth-child(1):hover {
