@@ -1,20 +1,46 @@
 .hero-main-container {
     width: 100%;
     height: 615px;
-    border: 1px solid red;
     padding: 1rem 1.5rem;
     font-family: 'Poppins', sans-serif;
 }
 
 .focus-sec span{
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: bold;
 }
 
-.focus-sec .hero-card {
-    padding: 1rem 1.1rem;
-    margin: 30px 20px;
-    height: 200px;
-    width: 300px;
-    border: 1px solid red;
+.focus-sec .focus-sec-card {
+    padding: 0.8rem 0.8rem;
+    margin: 18px 0 22px 0;
+    height: 270px;
+    width: 210px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(17, 17, 17, 0.288);
+    cursor: pointer;
+}
+
+.focus-sec .focus-sec-card:hover {
+    background-color: #272727;
+    border-radius: 2px;
+}
+
+.card-image {
+    width: 100%;
+    height: 150px;
+    border-radius: 8px;
+    margin-bottom: 13px;
+}
+
+.focus-sec-card .card-topic {
+    font-size: 1rem;
+    color: #fff;
+}
+
+.focus-sec-card .card-para {
+    font-size: 0.9rem;
+    color: #c7c2c2;
+    margin-top: 11px;
+    letter-spacing: 0.1rem;
 }
