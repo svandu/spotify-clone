@@ -25,7 +25,7 @@ function ContainerHeroSection() {
           </svg>
         </div>
           <img
-            src="../../../public/assets/img/image1.jpg"
+            src="../../../public/assets/img/image2.png"
             alt="image1"
             className="card-image"
           ></img>
@@ -55,7 +55,7 @@ function ContainerHeroSection() {
           </svg>
         </div>
           <img
-            src="../../../public/assets/img/image1.jpg"
+            src="../../../public/assets/img/image3.png"
             alt="image2"
             className="spotify-card-image"
           ></img>
