@@ -39,7 +39,10 @@ function MainNav() {
         </button>
       </div>
       <div className="auth-btn">
-        <button>Sign up</button>
+        <button className="nav-btn">Premium</button>
+        <button className="nav-btn">Support</button>
+        <button className="nav-btn">Download</button>
+        <button className="nav-btn">Sign up</button>
         <button>Log in</button>
       </div>
     </div>

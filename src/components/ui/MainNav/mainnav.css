@@ -36,7 +36,7 @@
     transform: scale(1.03);
 }
 
-.auth-btn button:nth-child(1){
+.auth-btn .nav-btn {
     background-color: rgba(0, 0, 0, 0.411);
     background: transparent;
     border: none;
@@ -44,11 +44,15 @@
     color: #c7c2c2;
 }
 
-.auth-btn button:nth-child(1):hover {
+.auth-btn .nav-btn:hover{
     color: #fff;
 }
 
-.auth-btn button:nth-child(2){
+.auth-btn .nav-btn:nth-child(3) {
+    margin-right: 50px;
+}
+
+.auth-btn button:nth-child(5){
     padding: 0.8rem 1.8rem;
     border: none;
     border-radius: 500px;
