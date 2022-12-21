@@ -18,23 +18,10 @@
     height: 300px;
     width: 210px;
     border: none;
+    position: relative;
     border-radius: 8px;
     background-color: rgba(17, 17, 17, 0.288);
     cursor: pointer;
-}
-
-.focus-sec svg {
-    position: absolute;
-    left: 135px;
-    top: 165px;
-    height: 40px;
-    /* display: none; */
-    color: #25c71f;
-}
-
-.focus-sec .focus-sec-card:hover {
-    background-color: #272727;
-    border-radius: 2px;
 }
 
 .card-image {
@@ -42,7 +29,6 @@
     height: 190px;
     border-radius: 8px;
     margin-bottom: 13px;
-    /* display: inline-block; */
 }
 
 .focus-sec-card .card-topic {
@@ -58,26 +44,50 @@
     letter-spacing: 0.1rem;
 }
 
-.spotify-playlist {
-    font-size: 1.4rem;
-    font-weight: bold;
+.focus-sec .focus-overlay-div {
+    height: 300px;
+    width: 210px;
+    position: absolute;
+    left: -1px;
+    top: 1px;
+    border-radius: 8px;
+    opacity: 0;
 }
 
-.spotify-playlist-sec {
+.focus-overlay-div svg {
+    color: rgb(35, 255, 35);
+    position: absolute;
+    right: 15px;
+    top: 150px;
+    height: 45px;
+}
+
+.focus-overlay-div:hover {
+    background-color: #2727274e;
+    opacity: 1;
+}
+
+.spotify-playlist-card{
     padding: 0.9rem 0.8rem;
     height: 300px;
     width: 210px;
     margin-top: 29px;
     border: none;
+    position: relative;
     border-radius: 8px;
     background-color: rgba(17, 17, 17, 0.288);
     cursor: pointer;
 }
 
-.spotify-playlist-sec:hover {
+.spotify-playlist-sec .spotify-playlist {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+/* .spotify-playlist-sec:hover {
     background-color: #272727;
     border-radius: 2px;
-}
+} */
 
 .spotify-card-image {
     width: 100%;
@@ -97,6 +107,29 @@
     color: #c7c2c2;
     margin-top: 11px;
     letter-spacing: 0.1rem;
+}
+
+.spotify-playlist-card .spotify-playlist-overlay-div {
+    height: 300px;
+    width: 210px;
+    position: absolute;
+    left: -1px;
+    top: 1px;
+    border-radius: 8px;
+    opacity: 0;
+}
+
+.spotify-playlist-overlay-div svg{
+    color: rgb(35, 255, 35);
+    position: absolute;
+    right: 15px;
+    top: 150px;
+    height: 45px;
+}
+
+.spotify-playlist-overlay-div:hover{
+    background-color: #2727274e;
+    opacity: 1;
 }
 
 hr {
