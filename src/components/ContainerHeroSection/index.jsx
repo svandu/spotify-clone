@@ -4,6 +4,28 @@ import React from "react";
 import "./containerherosection.css";
 
 function ContainerHeroSection() {
+  const song_details = [
+    {
+      name: "Peaceful Piano",
+      para: "relax and indulge with beautiful piano pieces",
+    },
+    {
+      name: 'Deep Focus',
+      para: 'Keep calm and focus with ambient and post-rock music.'
+    },
+    {
+      name: 'Instrumental Study',
+      para: 'Focus with soft study music in the background.',
+    },
+    {
+      name: 'chilli lofi study beats',
+      para: 'The perfect study beats. Find your focus, crush your productivity.',
+    },
+    {
+      name: 'Coding Mode',
+      para: 'Dedicated to all the programmers out there.'
+    }
+  ];
   return (
     <div className="hero-main-container">
       <div className="focus-sec">
@@ -27,10 +49,11 @@ function ContainerHeroSection() {
           ></img>
           <span className="card-topic">Peaceful Piano</span>
           <p className="card-para">
-            relax and indulge with beautiful piano pieces
+          relax and indulge with beautiful piano pieces
           </p>
         </div>
       </div>
+
 
       <div className="spotify-playlist-sec">
         <span className="spotify-playlist">Spotify Playlist</span>
