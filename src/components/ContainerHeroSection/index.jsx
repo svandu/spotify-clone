@@ -3,34 +3,12 @@ import React from "react";
 //styles
 import "./containerherosection.css";
 
-function ContainerHeroSection() {
-  const song_details = [
-    {
-      name: "Peaceful Piano",
-      para: "relax and indulge with beautiful piano pieces",
-    },
-    {
-      name: "Deep Focus",
-      para: "Keep calm and focus with ambient and post-rock music.",
-    },
-    {
-      name: "Instrumental Study",
-      para: "Focus with soft study music in the background.",
-    },
-    {
-      name: "chilli lofi study beats",
-      para: "The perfect study beats. Find your focus, crush your productivity.",
-    },
-    {
-      name: "Coding Mode",
-      para: "Dedicated to all the programmers out there.",
-    },
-  ];
+function ContainerHeroSection(props) {
   return (
     <div className="hero-main-container">
       <div className="focus-sec">
         <span>Focus</span>
-        {song_details.map((song,i) => {
+        {song_details.map((songs,i) => {
           return (
             <div className="focus-sec-card" key={i}>
               <div className="focus-overlay-div">
@@ -49,9 +27,9 @@ function ContainerHeroSection() {
                 alt="image1"
                 className="card-image"
               ></img>
-              <span className="card-topic">{song.name}</span>
+              <span className="card-topic">{songs.name}</span>
               <p className="card-para">
-                {song.para}
+                {songs.para}
               </p>
             </div>
           );
