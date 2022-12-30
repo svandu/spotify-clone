@@ -1,0 +1,52 @@
+.item-songs {
+border: 1px solid red;
+    display: flex;
+}
+
+
+.focus-sec span{
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.focus-sec .focus-sec-card {
+    padding: 0.8rem 0.8rem;
+    margin: 18px 0 22px 0;
+    height: 300px;
+    width: 210px;
+    border: none;
+    position: relative;
+    border-radius: 8px;
+    background-color: rgba(17, 17, 17, 0.288);
+    cursor: pointer;
+}
+
+.card-image {
+    width: 100%;
+    height: 190px;
+    border-radius: 8px;
+    margin-bottom: 13px;
+}
+
+.focus-sec-card .card-topic {
+    font-size: 1rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+.focus-sec-card .card-para {
+    font-size: 0.9rem;
+    color: #c7c2c2;
+    margin-top: 11px;
+    letter-spacing: 0.1rem;
+}
+
+.focus-sec .focus-overlay-div {
+    height: 300px;
+    width: 210px;
+    position: absolute;
+    left: -1px;
+    top: 1px;
+    border-radius: 8px;
+    opacity: 0;
+}
