@@ -15,9 +15,24 @@ function ContainerHeroSection(props) {
           img: "./public/assets/img/1stimage1.png",
         },
         {
-          name: "Peaceful Piano",
-          para: "relax and indulge with beautiful piano pieces",
-          img: "./public/assets/img/1stimage1.png",
+          name: "Deep Focus",
+          para: "Keep calm and focus with ambient and post-rock music.",
+          img: "./public/assets/img/1stimage2.png",
+        },
+        {
+          name: "Instrumental Study",
+          para: "Focus with soft study music in the background.",
+          img: "./public/assets/img/1stimage3.png",
+        },
+        {
+          name: "chilli lofi study beats",
+          para: "The perfect study beats. Find your focus, crush your productivity.",
+          img: "./public/assets/img/1stimage4.png",
+        },
+        {
+          name: "Coding Mode",
+          para: "Dedicated to all the programmers out there.",
+          img: "./public/assets/img/1stimage5.png",
         },
       ],
     },
@@ -26,15 +41,30 @@ function ContainerHeroSection(props) {
       field: "spotify playlist",
       songlist: [
         {
-          name: "Peaceful Piano",
-          para: "relax and indulge with beautiful piano pieces",
-          img: "./public/assets/img/1stimage1.png",
+          name: "Today's Top Hits",
+          para: "Taylor Swift is on top of the Hotterst 50!",
+          img: "./public/assets/img/2ndimage1.png",
         },
         {
           name: "Peaceful Piano",
-          para: "relax and indulge with beautiful piano pieces",
-          img: "./public/assets/img/1stimage1.png",
+          para: "Music by Metro Boomin, Lil Durk and Moneybagg Yo.",
+          img: "./public/assets/img/2ndimage2.png",
         },
+        {
+          name: "All Out 2010s",
+          para: "The biggest songs of the 2010s",
+          img: "./public/assets/img/2ndimage3.png",
+        },
+        {
+          name: "Rock Classics",
+          para: "Rock legends & epic songs that continue to inspire generation",
+          img: "./public/assets/img/2ndimage4.png",
+        },
+        {
+          name: "Chill Hits",
+          para: "Kick back to the best new and recent chill hits.",
+          img: "./public/assets/img/2ndimage5.png",
+        }
       ],
     },
   ];
@@ -44,30 +74,6 @@ function ContainerHeroSection(props) {
       {songs.map((singleSongData, i) => (
         <ContainerCards song={singleSongData} key={i} />
       ))}
-
-      {/* <div className="spotify-playlist-sec">
-        <span className="spotify-playlist">Spotify Playlist</span>
-        <div className="spotify-playlist-card">
-          <div className="spotify-playlist-overlay-div">
-            <svg
-              width="46"
-              height="46"
-              fill="currentColor"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path d="M12 2.25c-5.376 0-9.75 4.374-9.75 9.75s4.374 9.75 9.75 9.75 9.75-4.374 9.75-9.75S17.376 2.25 12 2.25Zm3.505 10.186-5.365 3.24a.506.506 0 0 1-.765-.435V8.76a.505.505 0 0 1 .765-.437l5.365 3.241a.51.51 0 0 1 0 .872Z"></path>
-            </svg>
-          </div>
-          <img
-            src="../../../public/assets/img/image3.png"
-            alt="image2"
-            className="spotify-card-image"
-          ></img>
-          <span className="spotify-card-topic">Today's top hits</span>
-          <p className="spotify-card-para">SZA is on top of the Hottest 50!</p>
-        </div>
-      </div> */}
       <hr></hr>
     </div>
   );
