@@ -1,24 +1,52 @@
-.item-songs {
-border: 1px solid red;
-    display: flex;
-}
-
-
-.focus-sec span{
-    font-size: 1.4rem;
+.songs-field {
+    font-size: 1.3rem;
     font-weight: bold;
+    text-transform: capitalize;
+    cursor: pointer;
 }
 
-.focus-sec .focus-sec-card {
-    padding: 0.8rem 0.8rem;
-    margin: 18px 0 22px 0;
+.songs-field:hover {
+    text-decoration: underline;
+}
+
+.item-songs {
+    display: flex;
+    margin: 2rem 0;
+}
+
+.songs-cards {
+    margin: 12px 10px;
     height: 300px;
-    width: 210px;
+    width: 220px;
+    padding: 0.8rem 0.8rem;
     border: none;
     position: relative;
     border-radius: 8px;
     background-color: rgba(17, 17, 17, 0.288);
     cursor: pointer;
+}
+
+.cards-overlay {
+    height: 300px;
+    width: 220px;
+    position: absolute;
+    left: -1px;
+    top: 1px;
+    border-radius: 8px;
+    opacity: 0;
+}
+
+.cards-overlay svg {
+    color: rgb(35, 255, 35);
+    position: absolute;
+    right: 15px;
+    top: 150px;
+    height: 45px;
+}
+
+.cards-overlay:hover {
+    background-color: #2727274e;
+    opacity: 1;
 }
 
 .card-image {
@@ -28,25 +56,16 @@ border: 1px solid red;
     margin-bottom: 13px;
 }
 
-.focus-sec-card .card-topic {
+.card-topic {
     font-size: 1rem;
-    color: #fff;
+    text-transform: capitalize;
     font-weight: bold;
 }
 
-.focus-sec-card .card-para {
-    font-size: 0.9rem;
-    color: #c7c2c2;
-    margin-top: 11px;
+.card-para {
+    font-size: 0.7rem;
     letter-spacing: 0.1rem;
-}
-
-.focus-sec .focus-overlay-div {
-    height: 300px;
-    width: 210px;
-    position: absolute;
-    left: -1px;
-    top: 1px;
-    border-radius: 8px;
-    opacity: 0;
+    color: #c7c2c2;
+    margin-top: 0.3rem;
+    line-height: 1rem;
 }
