@@ -9,6 +9,10 @@
     text-decoration: underline;
 }
 
+.focus-button {
+    border: 2px solid red;
+}
+
 .item-songs {
     display: flex;
     margin: 2rem 0;
