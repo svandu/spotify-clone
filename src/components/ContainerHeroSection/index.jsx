@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import ContainerCards from "../ContainerCards";
 
 //styles
@@ -64,7 +64,7 @@ function ContainerHeroSection(props) {
           name: "Chill Hits",
           para: "Kick back to the best new and recent chill hits.",
           img: "./public/assets/img/2ndimage5.png",
-        }
+        },
       ],
     },
   ];
