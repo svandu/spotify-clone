@@ -7,12 +7,11 @@ function ContainerCards(props) {
   return (
     <div className="card-conatiner">
       <span className="songs-field">{props.song.field}</span>
-      <button className="focus-button">show all</button>
+      {/* <button className="focus-button">show all</button> */}
       <div className="item-songs">
         {props.song.songlist.map((item, i) => (
           <div className="songs-cards" key={i}>
-            <div class
-            Name="cards-overlay">
+            <div className="cards-overlay">
               <svg
                 width="46"
                 height="46"
