@@ -10,7 +10,14 @@
 }
 
 .focus-button {
-    border: 2px solid red;
+    margin-left: 70rem;
+    background-color: #161a1d;
+    color: #c7c2c2;
+    font-weight: bold;
+    font-size: 0.8rem;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
 }
 
 .item-songs {
