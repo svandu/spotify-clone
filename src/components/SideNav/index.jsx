@@ -116,6 +116,10 @@ function SideNav() {
           Liked Songs
         </li>
       </ul>
+      <ul className="side-nav-auth">
+        <li>cookies</li>
+        <li>privacy</li>
+      </ul>
     </div>
   );
 }

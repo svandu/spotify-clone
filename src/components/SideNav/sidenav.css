@@ -71,3 +71,20 @@ svg:hover {
     color: #fff;
     cursor: pointer;
 }
+
+.side-nav-auth {
+    font-size: 0.8rem;
+    font-family: "Poppins", sans-serif;
+    color: #c7c2c2;
+    margin: 15rem 0 0 1rem;
+}
+
+.side-nav-auth li {
+    margin-bottom: 0.5rem;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.side-nav-auth li:hover {
+    text-decoration: underline;
+}
