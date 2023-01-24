@@ -15,11 +15,13 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.logo-sec{ 
-    color: #fff;
+.logo-name{ 
+    color: rgb(178, 16, 16);
     font-size: 2.5rem;
     font-weight: bold;
 }
+
+
 
 .spotify-img {
     width: 7rem;
