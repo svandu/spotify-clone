@@ -14,7 +14,7 @@ function SideNav() {
           width="46"
           height="46"
           fill="none"
-          stroke="currentColor"
+          stroke="currentColor" 
           strokeLinecap="round"
           strokeLinejoin="round"
           strokeWidth="2"
