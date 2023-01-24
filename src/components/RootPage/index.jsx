@@ -9,7 +9,7 @@ function RootPage() {
     <div className='root-main-container'>
         <div className='auth-container'>
             <div className='logo-sec'>
-                <img src='/public/assets/img/spotify.png' className='spotify-img'></img>
+                <img src='public/assets/img/spotify.png' className='spotify-img'></img>
                 <p className='logo-name'>Spotify</p>
                 <Demo />
             </div>
