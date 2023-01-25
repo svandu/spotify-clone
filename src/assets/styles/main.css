@@ -5,3 +5,36 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.btn {
+    margin: 0 1rem;
+    padding: 1rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+    background: transparent;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
+  .btn--signup {
+    color: #adadad;
+    font-weight: bold;
+    letter-spacing: 0.05rem;
+  }
+  
+  .btn--login {
+    background-color: #1ed760;
+    color: #000000;
+    font-weight: bold;
+    letter-spacing: 0.05rem;
+  }
+  
+  .btn--signup:hover {
+    color: #cccccc;
+  }
+  
+  .btn--login:hover {
+    background-color: #27e76a;
+  }
