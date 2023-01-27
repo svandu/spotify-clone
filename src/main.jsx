@@ -6,7 +6,7 @@ import RootPage from './pages/RootPage'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    {/* <RootPage /> */}
-    <HomePage />
+    <RootPage />
+    {/* <HomePage /> */}
   </React.StrictMode>,
 )
