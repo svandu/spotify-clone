@@ -1,8 +1,15 @@
 import React from 'react'
 
+//routing 
+import { Routes, Route } from "react-router-dom"
+
 import styles from './rootpage.module.css';
 
 import logo from '../../../public/assets/img/spotify.png';
+
+//authentication page 
+import LogIn from "./AuthPage/Login/index.jsx"
+import SignUp from "./AuthPage/SignUp/index.jsx"
 
 function RootPage() {
   return (
@@ -15,6 +22,9 @@ function RootPage() {
           <button className='btn btn--signup'>SIGN UP</button>
           <button className='btn btn--login'>LOG IN</button>
       </div>
+      <Routes>
+      <Route path="./AuthPage/Login/index" element={<LogIn />}></Route>
+     </Routes>
     </div>
   );
 }
