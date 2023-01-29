@@ -1,8 +1,11 @@
 import React from 'react'
+// import { Link } from "react-router-dom"
 
 function LogIn() {
   return (
-    <div></div>
+    <div className='login-container'>
+      <h1>Login page</h1>
+    </div>
   )
 }
 
