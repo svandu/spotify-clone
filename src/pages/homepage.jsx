@@ -17,9 +17,9 @@ function HomePage() {
   return (
     <>
       <Routes>
-        <Route path="/RootPage" element={<RootPage />} />
-        <Route path="./AuthPage/LogIn" element={<LogIn />} />
-        <Route path="./AuthPage/SignUp" element={<SignUp />} />
+        <Route path="/" element={<RootPage />} />
+        <Route path="/AuthPage/LogIn" element={<LogIn />} />
+        <Route path="/AuthPage/SignUp" element={<SignUp />} />
       </Routes>
     </>
 
