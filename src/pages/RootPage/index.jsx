@@ -15,16 +15,16 @@ function RootPage() {
         <span className={styles.logo__title}>Spotify</span>
       </div>
       <div className={styles.btn_container}>
-        <Link to="./AuthPage/SignUp">
+        <Link to="/AuthPage/SignUp">
           <button className="btn btn--signup">SIGN UP</button>
         </Link>
 
-        <Link to="./AuthPage/LogIn">
+        <Link to="/AuthPage/LogIn">
           <button className="btn btn--login">LOG IN</button>
         </Link>
       </div>
     </div>
-  );
+  );  
 }
 
 export default RootPage;
