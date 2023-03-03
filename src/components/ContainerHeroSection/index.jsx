@@ -61,7 +61,7 @@ function ContainerHeroSection(props) {
           img: "./public/assets/img/2ndimage4.png",
         },
         {
-          name: "Chill Hits",
+          name: "Chill Hits", 
           para: "Kick back to the best new and recent chill hits.",
           img: "./public/assets/img/2ndimage5.png",
         },
