@@ -4,7 +4,7 @@ import React from 'react'
 import styles from './signup.module.css'
 
 //routing
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 
 function SignUp() {
   return (
@@ -64,9 +64,9 @@ function SignUp() {
 
         <button className='btn btn--login'>SIGN UP </button>
 
-        <Link to="/AuthPage/LogIn">
+        {/* <Link to="/AuthPage/LogIn">
           <button className={styles.login__btn}>Have an account?</button> 
-        </Link>
+        </Link> */}
       </div>
     </div>
   )

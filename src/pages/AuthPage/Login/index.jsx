@@ -1,8 +1,6 @@
 import React from 'react'
-// import { Link } from "react-router-dom"
 
-//link import 
-import { Link } from 'react-router-dom'
+// import { Link } from "react-router-dom"
 
 //styles
 import styles from "./login.module.css"
@@ -33,9 +31,9 @@ function LogIn() {
         <div className={styles.btn__container}>
           <button className='btn btn--login'>LOG IN </button>
 
-          <Link to="/AuthPage/SignUp">
+          {/* <Link to="/AuthPage/SignUp">
             <button className={styles.signup__btn}>Dont have an account?</button> 
-          </Link>
+          </Link> */}
         </div>
       </div>
       
