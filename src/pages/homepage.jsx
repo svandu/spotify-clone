@@ -9,6 +9,7 @@ import "../assets/PageStyle/homepage.css";
 import SideNav from "../components/SideNav";
 import AuthFooter from "../components/AuthFooter";
 import MainContainer from "../components/MainContainer";
+
 // import LogIn from "./AuthPage/LogIn";
 // import SignUp from "./AuthPage/SignUp";
 // import RootPage from "./RootPage";
