@@ -3,7 +3,7 @@ import React from "react";
 import "../assets/PageStyle/homepage.css";
 
 //routing
-// import { Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 //components
 import SideNav from "../components/SideNav";
